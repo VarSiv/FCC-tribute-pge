@@ -1,0 +1,47 @@
+* {
+  font-family: Roboto, Arial;
+  background-color: #ededed
+
+}
+.img-div img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.img-div p {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 10px;
+}
+
+.img-div, .tribute-div {
+  padding: 0px 20px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.info {
+  text-align: justify;
+  text-justify: inter-word;
+}
+.tribute-link {
+  text-align: center;
+  margin: -5px 10px 40px 10px;
+  text-decoration: none;
+  color: #d417c4;
+
+}
+.tribute-link:visited {
+  color: #d180ca;
+}
